@@ -42,6 +42,8 @@ public class HomeWork3 {
             case 12:
                 System.out.println("DEC");
                 break;
+            default:
+                System.out.println("Number doesn't match any of the Months");
         }
 
         for (int i = 100; i <= 1000; i++) {
