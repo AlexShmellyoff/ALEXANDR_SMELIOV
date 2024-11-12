@@ -9,16 +9,21 @@ public class Circle {
     }
 
     public void calculateArea(){
-        double area = Math.PI * radius * radius;
-        System.out.println("Площадь круга с радиусом " + radius + " равна: " + area);
+        double pi;
+        double square;
+        double area;
 
+        pi = Math.PI;
+        square = radius * radius;
+        area = pi * square;
+
+        System.out.println("Площадь круга с радиусом " + radius + " равна: " + area);
     }
 
     public static void main(String[] args) {
-
-        Circle circle = new Circle(5.0);
+        Circle circle;
+        circle = new Circle(5.0);
 
         circle.calculateArea();
-
     }
 }
