@@ -14,5 +14,4 @@ public class Microwave extends Appliance{
         return "Microwave is now heating food.";
     }
 
-    //Реализуйте метод turnOn() так, чтобы он возвращал строку: “Microwave is now heating food.”
 }

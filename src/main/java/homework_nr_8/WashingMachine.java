@@ -13,5 +13,4 @@ public class WashingMachine extends Appliance{
         return "Washing machine is now washing clothes.";
     }
 
-    //Реализуйте метод turnOn() так, чтобы он возвращал строку: “Washing machine is now washing clothes.”
 }
