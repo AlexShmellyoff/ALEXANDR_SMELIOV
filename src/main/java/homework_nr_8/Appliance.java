@@ -10,12 +10,13 @@ public abstract class Appliance {
         this.power = power;
     }
 
-    public String turnOn(){
+    public abstract String turnOn();
 
-        return "";
-    }
+
 
     public void displayInfo(){
-        this.turnOn();
+        System.out.println("Brand: " + brand);
+        System.out.println("Power: " + power + " Watts");
+        System.out.println(turnOn());
     }
 }

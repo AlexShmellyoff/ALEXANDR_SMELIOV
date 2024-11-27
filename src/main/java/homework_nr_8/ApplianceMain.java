@@ -12,7 +12,11 @@ public class ApplianceMain {
                 w1, m1, a1
         };
 
+
+
         for (int i = 0; i != appliances.length; i++){
+            appliances[i].displayInfo();
+
             if (appliances[i] instanceof WashingMachine){
                 System.out.println("This is a washing machine with a load capacity of " +  w1.loadCapacity + "kg.");
             }
